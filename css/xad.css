@@ -1,0 +1,683 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  overflow: hidden;
+  display: none; }
+
+#hammer_gesture {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 10; }
+
+#tracearea {
+  position: fixed;
+  font-size: 15px;
+  z-index: 10; }
+
+#xad_container {
+  position: absolute;
+  width: 1100px;
+  height: 100px;
+  left: 50%;
+  margin: 0 0 0 -550px; }
+
+#xad_nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 9; }
+
+#xad_nav0 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1100px;
+  height: 7px; }
+
+#xad_nav1 {
+  position: absolute;
+  left: 0px;
+  top: 0px; }
+
+#xad_nav2 {
+  position: absolute;
+  left: 0px;
+  top: 150px;
+  width: 1100px;
+  height: 1px; }
+
+#xad_nav3 {
+  position: absolute;
+  left: 0px;
+  top: 186px; }
+
+#xad_nav4 {
+  position: absolute;
+  left: 0px;
+  top: 164px; }
+
+#xad_nav5 {
+  position: absolute;
+  left: 0px;
+  top: 230px;
+  width: 1100px;
+  height: 7px; }
+
+#xad_nav6 {
+  position: absolute;
+  left: 0px;
+  top: 223px;
+  width: 244px;
+  height: 7px;
+  background-color: #83bc20;
+  opacity: 0; }
+
+#xad_menu_container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1100px;
+  left: 50%;
+  margin: 0 0 0 -550px;
+  z-index: 20; }
+
+.xad_menu {
+  position: absolute;
+  height: 230px;
+  cursor: pointer; }
+
+#xad_menu1 {
+  left: 0px;
+  top: 0px;
+  width: 244px; }
+
+#xad_menu2 {
+  left: 244px;
+  top: 0px;
+  width: 245px; }
+
+#xad_menu3 {
+  left: 489px;
+  top: 0px;
+  width: 222px; }
+
+#xad_menu4 {
+  left: 711px;
+  top: 0px;
+  width: 192px; }
+
+#xad_menu5 {
+  left: 903px;
+  top: 0px;
+  width: 196px; }
+
+#xad_content {
+  position: absolute;
+  left: 0px;
+  top: 0px; }
+
+#xad_content0 {
+  position: relative;
+  width: 1100px;
+  height: 231px;
+  background-color: #f7f7f7; }
+
+#xad_content1 {
+  position: relative;
+  width: 1100px;
+  height: 650px; }
+
+#xad_content1_bg {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_content1_animation {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_topfeature0 {
+  position: absolute;
+  top: 189px;
+  left: 701px; }
+
+#xad_topfeature1 {
+  position: absolute;
+  top: 213px;
+  left: 601px; }
+
+#xad_topfeature2 {
+  position: absolute;
+  top: 401px;
+  left: 897px; }
+
+#xad_topfeature3 {
+  position: absolute;
+  top: 317px;
+  left: 944px; }
+
+#xad_topfeature4 {
+  position: absolute;
+  top: 266px;
+  left: 901px; }
+
+#xad_topfeature5 {
+  position: absolute;
+  top: 165px;
+  left: 871px; }
+
+#xad_topfeature6 {
+  position: absolute;
+  top: 124px;
+  left: 760px; }
+
+#xad_topfeature7 {
+  position: absolute;
+  top: 147px;
+  left: 664px; }
+
+#xad_topfeature8 {
+  position: absolute;
+  top: 274px;
+  left: 578px; }
+
+#xad_topfeature9 {
+  position: absolute;
+  top: 299px;
+  left: 638px; }
+
+#xad_topfeature10 {
+  position: absolute;
+  top: 364px;
+  left: 556px; }
+
+#xad_topfeature11 {
+  position: absolute;
+  top: 275px;
+  left: 768px; }
+
+#xad_topfeature12 {
+  position: absolute;
+  top: 275px;
+  left: 814px; }
+
+#xad_content2 {
+  position: relative;
+  width: 1100px;
+  height: 650px; }
+
+#xad_content2_bg {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_content2_animation {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_presentation11 {
+  position: absolute;
+  top: 359px;
+  left: 498px; }
+
+#xad_presentation12 {
+  position: absolute;
+  top: 428px;
+  left: 606px; }
+
+#xad_presentation21 {
+  position: absolute;
+  top: 355px;
+  left: 495px; }
+
+#xad_presentation22 {
+  position: absolute;
+  top: 428px;
+  left: 606px; }
+
+#xad_presentation31 {
+  position: absolute;
+  top: 355px;
+  left: 495px; }
+
+#xad_presentation32 {
+  position: absolute;
+  top: 428px;
+  left: 606px; }
+
+#xad_presentation41 {
+  position: absolute;
+  top: 359px;
+  left: 493px; }
+
+#xad_presentation42 {
+  position: absolute;
+  top: 428px;
+  left: 606px; }
+
+#xad_presentation5 {
+  position: absolute;
+  top: 367px;
+  left: 613px; }
+
+#xad_presentation_black {
+  position: absolute;
+  top: 370px;
+  left: 613px;
+  width: 210px;
+  height: 49px;
+  background-color: black; }
+
+#xad_content3 {
+  position: relative;
+  width: 1100px;
+  height: 650px; }
+
+#xad_content3_bg {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_content3_animation {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_slide1 {
+  position: absolute;
+  top: 175px;
+  left: 261px;
+  width: 231px;
+  height: 302px;
+  overflow: hidden; }
+
+#xad_slide1_img {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+.ipadframe {
+  position: absolute;
+  top: 145px;
+  left: 236px; }
+
+#xad_content4 {
+  position: relative;
+  width: 1100px;
+  height: 650px;
+  overflow: hidden; }
+
+#xad_content4_bg {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_content4_animation {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_locator11 {
+  position: absolute;
+  top: 329px;
+  left: 61px; }
+
+#xad_locator12 {
+  position: absolute;
+  top: 356px;
+  left: 707px; }
+
+#xad_locator21 {
+  position: absolute;
+  top: 329px;
+  left: 61px; }
+
+#xad_locator22 {
+  position: absolute;
+  top: 397px;
+  left: 507px; }
+
+#xad_locator31 {
+  position: absolute;
+  top: 329px;
+  left: 61px; }
+
+#xad_locator32 {
+  position: absolute;
+  top: 322px;
+  left: 606px; }
+
+#xad_locator41 {
+  position: absolute;
+  top: 329px;
+  left: 61px; }
+
+#xad_locator42 {
+  position: absolute;
+  top: 381px;
+  left: 636px; }
+
+#xad_locator43 {
+  position: absolute;
+  top: 454px;
+  left: 669px; }
+
+#xad_locator51 {
+  position: absolute;
+  top: 329px;
+  left: 61px; }
+
+#xad_locator52 {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_locator_graymap {
+  position: absolute;
+  top: 302px;
+  left: 376px; }
+
+#xad_locator_colormap {
+  position: absolute;
+  top: 302px;
+  left: 376px; }
+
+#xad_locator_hand {
+  position: absolute;
+  top: 265px;
+  left: 630px; }
+
+#xad_content5 {
+  position: relative;
+  width: 1100px;
+  height: 650px; }
+
+#xad_content5_bg {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_content5_animation {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_slide2 {
+  position: absolute;
+  top: 175px;
+  left: 261px;
+  width: 231px;
+  height: 302px;
+  overflow: hidden; }
+
+#xad_slide2_img {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_content6 {
+  position: relative;
+  width: 1100px;
+  height: 650px; }
+
+#xad_content6_bg {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_content6_animation {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_video_clock {
+  position: absolute;
+  top: 271px;
+  left: 572px; }
+
+#xad_video11 {
+  position: absolute;
+  top: 329px;
+  left: 557px; }
+
+#xad_video12 {
+  position: absolute;
+  top: 393px;
+  left: 718px; }
+
+#xad_video21 {
+  position: absolute;
+  top: 369px;
+  left: 557px; }
+
+#xad_video22 {
+  position: absolute;
+  top: 393px;
+  left: 718px; }
+
+#xad_video23 {
+  position: absolute;
+  top: 277px;
+  left: 566px; }
+
+#xad_video24 {
+  position: absolute;
+  top: 278px;
+  left: 566px; }
+
+#xad_video31 {
+  position: absolute;
+  top: 369px;
+  left: 557px; }
+
+#xad_video32 {
+  position: absolute;
+  top: 393px;
+  left: 718px; }
+
+#xad_video33 {
+  position: absolute;
+  top: 278px;
+  left: 566px; }
+
+#xad_video34 {
+  position: absolute;
+  top: 278px;
+  left: 565px; }
+
+#xad_video41 {
+  position: absolute;
+  top: 369px;
+  left: 557px; }
+
+#xad_video42 {
+  position: absolute;
+  top: 393px;
+  left: 718px; }
+
+#xad_video43 {
+  position: absolute;
+  top: 279px;
+  left: 566px; }
+
+#xad_video44 {
+  position: absolute;
+  top: 278px;
+  left: 565px; }
+
+#xad_content7 {
+  position: relative;
+  width: 1100px;
+  height: 650px; }
+
+#xad_content7_bg {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_content7_animation {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_slide3 {
+  position: absolute;
+  top: 175px;
+  left: 261px;
+  width: 231px;
+  height: 302px;
+  overflow: hidden; }
+
+#xad_slide3_img {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_content8 {
+  position: relative;
+  width: 1100px;
+  height: 650px; }
+
+#xad_content8_bg {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_content8_animation {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_game11 {
+  position: absolute;
+  top: 223px;
+  left: 601px; }
+
+#xad_game21 {
+  position: absolute;
+  top: 223px;
+  left: 601px; }
+
+#xad_game31 {
+  position: absolute;
+  top: 223px;
+  left: 601px; }
+
+#xad_game41 {
+  position: absolute;
+  top: 223px;
+  left: 601px; }
+
+#xad_game_fingerprint1 {
+  position: absolute;
+  top: 250px;
+  left: 650px; }
+
+#xad_game_fingerprint2 {
+  position: absolute;
+  top: 210px;
+  left: 710px; }
+
+#xad_game_fingerprint3 {
+  position: absolute;
+  top: 240px;
+  left: 784px; }
+
+#xad_content9 {
+  position: relative;
+  width: 1100px;
+  height: 650px; }
+
+#xad_content9_bg {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_content9_animation {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#xad_slide4 {
+  position: absolute;
+  top: 175px;
+  left: 261px;
+  width: 231px;
+  height: 302px;
+  overflow: hidden; }
+
+#xad_slide4_img {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+#burgervideo {
+  position: absolute;
+  top: 233px;
+  left: 723px;
+  width: 154px;
+  height: 271px;
+  filter: blur(0px);
+  -moz-filter: blur(0px);
+  -webkit-filter: blur(0px); }
+
+#commercialipad {
+  position: absolute;
+  top: 173px;
+  left: 260px;
+  width: 237px;
+  height: 308px;
+  filter: blur(0px);
+  -moz-filter: blur(0px);
+  -webkit-filter: blur(0px); }
